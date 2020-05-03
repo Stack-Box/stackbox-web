@@ -1,4 +1,7 @@
-# stackbox-web
+# Stackbox Web
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56cd1cff-02c0-422c-a8c3-1afd084950a2/deploy-status)](https://app.netlify.com/sites/stackbox-web/deploys)
+
+https://stackbox-web.netlify.app/
 
 ## Project setup
 ```
