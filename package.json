@@ -8,8 +8,17 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
+    "buefy": "^0.8.17",
     "core-js": "^3.6.4",
+    "feather-icons": "^4.28.0",
+    "fork-me-on-github-vue": "^1.0.7",
+    "fullpage-vue": "^2.0.0",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2",
     "vue": "^2.6.11",
+    "vue-fullpage.js": "^0.1.5",
+    "vue-icon": "^2.1.2",
     "vue-router": "^3.1.6"
   },
   "devDependencies": {
