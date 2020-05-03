@@ -1,7 +1,7 @@
 <template>
     <div class="Home">
         <div class="ribbon">
-            <a target="_blank" href="https://github.com/forkmeon/fork-me-on-github-vue.git">Fork me on GitHub</a>
+            <a target="_blank" href="https://github.com/Stack-Box/StackBox">Fork me on GitHub</a>
         </div>
         <h1>{{ msg }}</h1>
         <p>Download app stacks loaded with all your favourite clients and services along with code boilerplates.</p>
