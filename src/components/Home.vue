@@ -5,8 +5,8 @@
         </div>
         <h1>{{ msg }}</h1>
         <p>Download app stacks loaded with all your favourite clients and services along with code boilerplates.</p>
-        <div id="footer" style="margin-top: 50px">
-            <h2 v-animate="{value: 'flash', delay: 10}">Get Started</h2>
+        <div id="footer"  style="margin-top: 50px">
+            <h2 v-animate="{value: 'fadeInDown', delay: 5}">Get Started</h2>
             <v-icon style="color: white" name="chevron-down"></v-icon>
         </div>
     </div>
@@ -36,14 +36,14 @@
     height: 100%;
   }
     h1 {
-        font-size: 4em;
-        letter-spacing: 10px;
+        font-size: 4vw;
+        letter-spacing: 1vw;
         margin: 0px;
     }
 
     h2 {
-        font-size: 2em;
-        letter-spacing: 5px;
+        font-size: 2vw;
+        letter-spacing: 0.5vw;
         margin: 0px;
         color: #ff00bd;
     }

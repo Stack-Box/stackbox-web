@@ -16,6 +16,7 @@
     "fullpage-vue": "^2.0.0",
     "node-sass": "^4.14.0",
     "sass-loader": "^8.0.2",
+    "tailwindcss": "^1.4.6",
     "vue": "^2.6.11",
     "vue-fullpage.js": "^0.1.5",
     "vue-icon": "^2.1.2",

@@ -7,7 +7,9 @@
                     <Home msg="STACKBOX"/>
                 </div>
             </div>
-            <div class="page-2 page" style="background-color: #303168"></div>
+            <div class="page-2 page" style="background-color: #303168">
+                <Frontend/>
+            </div>
             <div class="page-3 page" style="background-color: #ff00bd"></div>
         </div>
     </div>
@@ -15,13 +17,13 @@
 
 <script>
     import Home from './components/Home.vue'
-    //import Frontend from './components/Frontend.vue'
+    import Frontend from "./components/Frontend";
 
     export default {
         name: 'App',
         components: {
+            Frontend,
             Home,
-            //Frontend
         },
         data() {
             return {
@@ -39,3 +41,9 @@
         }
     }
 </script>
+
+<style scoped>
+    .page{
+        display: table;
+    }
+</style>
