@@ -36,13 +36,13 @@
     height: 100%;
   }
     h1 {
-        font-size: 4vw;
+        font-size: 4em;
         letter-spacing: 1vw;
         margin: 0px;
     }
 
     h2 {
-        font-size: 2vw;
+        font-size: 2em;
         letter-spacing: 0.5vw;
         margin: 0px;
         color: #ff00bd;

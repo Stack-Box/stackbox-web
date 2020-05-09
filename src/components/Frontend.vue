@@ -1,7 +1,9 @@
 <template>
     <div class="Frontend">
-        <h1>Choose your frontend . . .</h1>
-        <div class="md:w-custom mx-auto py-8 md:flex md:justify-between md:flex-wrap">
+        <div>
+            <h1 class="pt-12">Choose your frontend . . .</h1>
+        </div>
+        <div class="md:w-custom mx-auto py-12 px-12 md:flex md:justify-between md:flex-wrap">
             <frontend-radio-button class="choice"
                     icon='vue'
                     desc="Vue"
@@ -16,7 +18,7 @@
             <frontend-radio-button class="choice"
                     name="Angular"
                     icon='angular'
-                    desc="React"
+                    desc="Angular"
                     v-model="activeName"
             ></frontend-radio-button>
         </div>
@@ -48,6 +50,7 @@
         height: 100%;
     }
     h1 {
+        font-family: 'Lato', sans-serif;
         font-size: 4vw;
         letter-spacing: 0.25vw;
         text-align: center;
@@ -56,7 +59,7 @@
     }
 
     h2 {
-        font-size: 2vw;
+        font-size: 2em;
         letter-spacing: 5px;
         margin: 0px;
         color: #ff00bd;
