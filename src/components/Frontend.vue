@@ -1,7 +1,7 @@
 <template>
     <div class="Frontend">
         <div>
-            <h1 class="pt-12">Choose your frontend . . .</h1>
+            <h1 class="pt-12" v-animate="{value: 'fadeInLeft', delay: 5}">Choose your frontend . . .</h1>
         </div>
         <div class="md:w-custom mx-auto py-12 px-12 md:flex md:justify-between md:flex-wrap">
             <frontend-radio-button class="choice"
