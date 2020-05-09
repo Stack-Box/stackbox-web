@@ -50,8 +50,8 @@
         height: 100%;
     }
     h1 {
-        font-family: 'Lato', sans-serif;
-        font-size: 4vw;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: max(4vw, 32px);
         letter-spacing: 0.25vw;
         text-align: center;
         margin-bottom: 2%;
