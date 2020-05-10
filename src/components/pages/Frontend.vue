@@ -1,32 +1,35 @@
 <template>
     <div class="Frontend">
         <div>
-            <h1 class="pt-12" v-animate="{value: 'fadeInLeft', delay: 5}">Choose your frontend . . .</h1>
+            <h1 class="pt-12">Choose your frontend . . .</h1>
         </div>
         <div class="md:w-custom mx-auto py-12 px-12 md:flex md:justify-between md:flex-wrap">
-            <frontend-radio-button class="choice"
+            <radio-button-large class="choice"
                     icon='vue'
                     desc="Vue"
                     v-model="activeName"
-            ></frontend-radio-button>
-            <frontend-radio-button class="choice"
+            ></radio-button-large>
+            <radio-button-large class="choice"
                     name="React"
                     icon='react'
                     desc="React"
                     v-model="activeName"
-            ></frontend-radio-button>
-            <frontend-radio-button class="choice"
+            ></radio-button-large>
+            <radio-button-large class="choice"
                     name="Angular"
                     icon='angular'
                     desc="Angular"
                     v-model="activeName"
-            ></frontend-radio-button>
+            ></radio-button-large>
+        </div>
+        <div id="footer"  style="margin-top: 50px">
+            <v-icon v-animate="{value: 'fadeInDown'}" style="color: #ff00bd" name="chevron-down"></v-icon>
         </div>
     </div>
 </template>
 
 <script>
-    import FrontendRadioButton from "./FrontendRadioButton";
+    import RadioButtonLarge from "../RadioButtonLarge";
 
     export default {
         name: 'Frontend',
@@ -34,7 +37,7 @@
             msg: String
         },
         components: {
-            FrontendRadioButton
+            RadioButtonLarge
         },
         data() {
             return {
@@ -69,4 +72,4 @@
     }
 </style>
 
-<style src="../assets/css/main.css"></style>
+<style src="../../assets/css/main.css"></style>

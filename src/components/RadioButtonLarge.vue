@@ -1,5 +1,5 @@
 <template>
-    <div class="md:w-64 bg-white rounded-lg shadow-md p-2 hover:cursor-pointer mb-8 hover:bg-pink-lightest focus:outline-none focus:shadow-outline-green" :class="{'bg-pink-lightest bg-pink' : this.activeName === this.name}" tabindex="0" @click="updateActiveName" @keydown.space="updateActiveName">
+    <div v-animate="{value: 'zoomIn'}" class="md:w-64 bg-white rounded-lg shadow-md p-2 hover:cursor-pointer mb-8 hover:bg-pink-lightest focus:outline-none focus:shadow-outline-green" :class="{'bg-pink-lightest bg-pink' : this.activeName === this.name}" tabindex="0" @click="updateActiveName" @keydown.space="updateActiveName">
         <div class="flex justify-between items-center mb-3">
             <div v-if="this.activeName === this.name">
                 <svg class="w-6 h-6" width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -27,7 +27,7 @@
             prop: 'activeName',
             event: 'onUpdateName'
         },
-        props: ['name','icon', 'desc', 'activeName'],
+        props: ['name','icon', 'desc', 'activeName', 'delay'],
         methods: {
             updateActiveName() {
                 this.$emit('onUpdateName', this.name)

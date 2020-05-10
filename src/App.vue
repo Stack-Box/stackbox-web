@@ -10,20 +10,29 @@
             <div class="page-2 page" style="background-color: #303168">
                 <Frontend/>
             </div>
-            <div class="page-3 page" style="background-color: #ff00bd"></div>
+            <div class="page-3 page" style="background-color: #C00088">
+                <Backend/>
+            </div>
+            <div class="page-3 page" style="background-color: #0a0b19">
+                <Clients/>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-    import Home from './components/Home.vue'
-    import Frontend from "./components/Frontend";
+    import Home from './components/pages/Home.vue'
+    import Frontend from "./components/pages/Frontend";
+    import Backend from "./components/pages/Backend";
+    import Clients from "./components/pages/Clients";
 
     export default {
         name: 'App',
         components: {
-            Frontend,
             Home,
+            Frontend,
+            Backend,
+            Clients,
         },
         data() {
             return {

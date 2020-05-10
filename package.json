@@ -15,6 +15,7 @@
     "fork-me-on-github-vue": "^1.0.7",
     "fullpage-vue": "^2.0.0",
     "node-sass": "^4.14.0",
+    "pretty-checkbox-vue": "^1.1.9",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.4.6",
     "vue": "^2.6.11",

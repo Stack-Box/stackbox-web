@@ -22,11 +22,30 @@ html, body {
     padding-bottom: 8%;
 }
 
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
 .page{
     display: table;
+    text-align: center;
 }
 
 .Frontend{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Backend{
+     display: table-cell;
+     vertical-align: middle;
+ }
+
+.Clients{
     display: table-cell;
     vertical-align: middle;
 }

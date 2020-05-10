@@ -4,7 +4,7 @@
             <a target="_blank" href="https://github.com/Stack-Box/StackBox">Fork me on GitHub</a>
         </div>
         <h1>{{ msg }}</h1>
-        <p>Download app stacks loaded with all your favourite clients and services along with code boilerplates.</p>
+        <p class="p-4">Download app stacks loaded with all your favourite clients and services along with code boilerplates.</p>
         <div id="footer"  style="margin-top: 50px">
             <h2 v-animate="{value: 'fadeInDown', delay: 5}">Get Started</h2>
             <v-icon style="color: white" name="chevron-down"></v-icon>
