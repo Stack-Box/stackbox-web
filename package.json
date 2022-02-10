@@ -14,7 +14,7 @@
     "feather-icons": "^4.28.0",
     "fork-me-on-github-vue": "^1.0.7",
     "fullpage-vue": "^2.0.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "pretty-checkbox-vue": "^1.1.9",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.4.6",
